@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares de interes</title>
+    <!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<!-- Bootstrap CSS — antes del CSS propio -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+ rel="stylesheet">
+
+ <!--CSS PROPIO DEL SITIO-->
+  <link rel=stylesheet href=style.css>  
+</head>
+<body>
+    <!--ENCABEZADO-->
+    <header id="inicio" class="text-center py-4">
+        <!--Titulo y eslogan-->
+        <h1>Descubri los lugares de Ciudad Porrima</h1>
+        <p class="eslogan">Paisajes, naturaleza y experiencias para recordar</p>
+
+        <!--NAVBAR - MENU DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+
+            <!--BOTON HAMBURGUESA-->
+            <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion"
+            aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Enlaces del menú -->
+            <div class="collapse navbar-collapse justify-content-center" id="menuNavegacion">
+                <ul class="navbar-nav align-items-center gap-2 gap-lg-4">
+                    <li class="nav-item">
+                         <a class="nav-link"  href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                     <a class="nav-link" href="ciudad.html">Ciudad</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="lugares.html">lugares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+             </ul>
+              <button id="btn-modo" class="btn btn-secondary">
+      🌙 Modo oscuro
+</button>
+        </div>
+     </div>
+    </nav>
+    </header>
+    
+ <!--CONTENIDO PRINCIPAL-->  
+    <main class="container py-4">
+        <!--INTRODUCCION A LOS ATRACTIVOS TURISTICOS-->
+        <section id="introduccion" class="text-center my-5">
+            <h2 class="display-5 fw-bold text-dark">¡Explora nuestros atractivos turisticos!</h2>
+            <p class="lead text-muted">Ciudad Porrima cuenta con una gran variedad de atractivos turisticos que combinan paisajes naturales, espacios culturales y actividades recreativas. Desde lagos rodeados de montañas hasta lugares dedicados a la observacion del cielo, cada rincon ofrece una experiencia diferente para sus visitantes.</p>
+        </section>
+<!--LUGARES TURISTICOS-->
+<section id="atractivos" class="text-center my-5">
+    <h2 class="display-5 fw-bold text-dark">Nuestros lugares turisticos</h2>
+    <div class="row g-4">
+        <!--LAGO CRISTAL-->
+        <div class="col-12 col-lg-6">
+            <section id="Lago-Cristal" class="card h-100">
+             <div class="card-body">
+                    <h3 class="card-title">Lago Cristal</h3>
+                    <img src="img/lago.jpg" class="img-fluid round my-2 imagen-tarjeta" alt="Lago congelado" width="300">
+                    <p class="card-text">El Lago Cristal es uno de los paisajes mas representativos de Ciudad Porrima. Se encuentra ubicado en el Distrito Cristal rodeado de nieve y extensos arboles de abetos,ofreciendo un entorno natural ideal para descansar y disfrutar del paisaje.</p>
+                    <p class="card-text">Durante el invierno, sus aguas pueden congelarse completamente, formando una extensa capa de hielo que parece cristal, creando asi un hermoso paisaje de nieve y hielo. Durante el deshielo de Porrima, el entorno cambia con el aumento de las temporadas y el derretimiento de la nieve.</p>
+
+                    <h4 class="card-subtitle mb-3">Actividades</h4>
+
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Recorrer los senderos que rodean el Lago</li>
+                        <li class="list-group-item">Observar la fauna y flora local</li>
+                        <li class="list-group-item">Disfrutar del paisaje y tomar fotografias</li>
+                        <li class="list-group-item">Practicar patinaje en las zonas habilidadas cuando el hielo esta seguro.</li>
+                    </ul>
+             </div>
+            </section>
+        </div>
+   
+<!--OBSERVATORIO BOREAL-->
+        <div class="col-12 col-lg-6">
+            <section id="Observatorio-Boreal" class="card h-100">
+                <div class="card-body">
+                    <h3 class="card-title">Observatorio Boreal</h3>
+                    <img src="img/observatorio.jpg" class="img-fluid round my-2 imagen-tarjeta" alt="Observatorio astronomico" width="300">
+                    <p class="card-text">El Observatorio Boreal es uno de los sitios mas reconocidos de Ciudad Porrima. Se encuentra en el barrio Los Astros y esta dedicado a la observacion y el estudio del espacio.</p>
+                    <p class="card-text">Sus instalaciones cuentan con telescopios especializados que permiten observar estrellas, planetas y otros cuerpos celestes. Ademas, es uno de los mejores lugares de la ciudad para cotemplar la famosa lluvia de meteoros que ilumina el cielo nocturno durante determinadas epocas del año.</p>
+
+                 <h4 class="card-subtitle mb-3">Actividades</h4>
+                 <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Participar en sesiones de observacion astronomica.</li>
+                        <li class="list-group-item">Observar planetas y constelaciones mediante el telescopio.</li>
+                       <li class="list-group-item">Asistir a charlas y talleres sobre astronomia.</li>
+                      <li class="list-group-item">Participar en eventos especiales relacionados con la astronomía.</li>
+                     <li class="list-group-item">Visitar la exposición anual sobre el universo.</li>
+                     <li class="list-group-item">Conocer mas sobre la lluvia de meteoros a partir de sus observaciones y exposiciones.</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+
+<!--PLAZA DE LOS FUNDADORES-->
+   <div class="col-12 col-lg-6">      
+<section id="Plaza-fundadores" class="card h-100">
+     <div class="card-body">
+            <h3 class="card-title">Plaza de los Fundadores</h3>
+            <img src="img/plaza.jpg" class="img-fluid round my-2 imagen-tarjeta" alt="Plaza central" width="300">
+            <p class="card-text">La plaza de los fundadores es uno de los espacios públicos más importantes de Ciudad Porrima, ubicado en barrio Los Fundadores. En ella se encuentra un edificio historico llamado Palacio de los Fundadores, donde se llevo acabo el encuentro oficial en el que el antiguo asentamiento fue reconocido como ciudad.</p>
+            <p class="card-text">Esta construccion, de arquitectura tradicional, conserva parte de la historia y la identidad de Porrima. Actualmente, funciona como un espacio institucional y cultural donde se realizan reuniones, actos conmemorativos y actividades relacionadas con la comunidad.</p>
+            <p class="card-text">La plaza que rodea el edificio cuenta con senderos de piedra, bancos, faroles decorativos y espacios verdes. Es un espacio de encuentro tanto para los habitantes como para los visitantes. Ideal para quienes desean aprender mas sobre la historia de la ciudad.</p>
+
+            <h4 class="card-subtitle mb-3">Actividades</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Conocer el edificio historico y su arquitectura </li>
+                <li class="list-group-item">Explorar las instalaciones y sus características arquitectónicas</li>
+                <li class="list-group-item">Visitar sus exposiciones sobre la fundacion de Porrima</li>
+                <li class="list-group-item">Participar en visitas guiadas sobre la historia de la ciudad</li>
+                <li class="list-group-item">Ir a la biblioteca historica</li>
+            </ul>
+     </div>
+    </section>
+   </div>
+
+<!--MIRADOR DEL VALLE NEVADO-->
+<div class="col-12 col-lg-6">
+    <section id="Mirador-Valle-Nevado" class="card h-100">
+        <div class="card-body">
+            <h3 class="card-title">Mirador del Valle Nevado</h3>
+            <img src="img/mirador.jpg" class="img-fluid round my-2 imagen-tarjeta" alt="Mirador de montaña" width="300">
+            <p class="card-text">El mirador del Valle Nevada es uno de los mejores lugares para contemplar los paisajes de Ciudad Porrima. Se encuentra en los Altos del valle, una zona elevada en las afueras de la ciudad, rodeada de montañas y bosques de abetos, desde donde se puede apreciar distintas partes de la region.</p>
+            <p class="card-text">Su plataforma permite disfrutar de una vista panoramica de los alrededores. Durante el invierno, las montañas cubiertas de nieve ofrecen un paisaje llamativo, mientras que durante el deshielo de Porrima se pueden apreciar los cambios en la naturaleza.</p>
+
+            <h4 class="card-subtitle mb-3">Actividades</h4>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Disfrutar de la vista panoramica del valle y las montañas</li>
+                <li class="list-group-item">Tomar fotografias del paisaje y la naturaleza</li>
+                <li class="list-group-item">Observar la fauna local desde el mirador</li>
+                <li class="list-group-item">Participar en actividades de observacion de las distintas aves y animales de la region</li>
+                <li class="list-group-item">Realizar caminatas por los senderos que rodean el mirador</li>
+                <li class="list-group-item">Participar en visitas guiadas por la zona</li>
+            </ul>
+        </div>
+    </section>
+</div>
+    </div>
+</section>
+<!--RECOMENDACIONES-->
+<section id="Recomendaciones" class="card mb-5">
+    <div class="card-body">
+        <h2 class="card-title mb-3">Recomendaciones para visitantes</h2>
+        <p class="card-text">Para disfrutar al maximo de Ciudad Porrima, recomendamos tener en cuenta algunos consejos antes de recorrer sus atractivos turisticos.</p>
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+             <strong>Vestimenta:</strong>Llevar ropa abrigada, especialmente durante los meses de invierno.
+            </li>
+
+            <li class="list-group-item">
+                <strong>Calzado:</strong> Utiliza calzado comodo y adecuado para caminar sobre superficies nevadas o resbaladizas.
+            </li>
+
+            <li class="list-group-item">
+             <strong>Clima:</strong>Consulta las condiciones meteorologicas antes de planificar tus actividades al aire libre.
+            </li>
+
+            <li class="list-group-item">
+                <strong>Excursiones:</strong> Respetar las indicaciones y los senderos habilitados en los espacios naturales.
+            </li>
+
+            <li class="list-group-item">
+                <strong>Seguridad:</strong> Mantenerse informado sobre las condiciones de seguridad y seguir las recomendaciones de los guias locales.
+            </li>
+
+            <li class="list-group-item">
+                <strong>Observacion Astronomica:</strong> Consulta los horarios y eventos especiales del Observatorio Boreal para aprovechar al maximo la experiencia de observacion del cielo.
+            </li>
+        </ul>
+    </div>
+</section>
+</main>
+
+
+<!--FOOTER - PIE DE PAGINA-->
+    <footer class="footer bg-dark text-light text-center py-4">
+        <p>quieres comunicarte con nosotros?<a href="contacto.html" class="enlace-contacto btn btn-primary">contactanos por aqui</a></p>
+        <p class="mb-2">&copy; 2026 Ciudad Porrima. Todos los derechos reservados.</p>
+ <a href="#inicio" class="enlace-inicio">Volver al principio</a>
+    </footer>
+
+<!-- Bootstrap JS — antes del </body> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script> 
+
+<!--JAVASCRIPT PROPIO-->
+<script src="main.js"></script>
+</body>
+</html>
