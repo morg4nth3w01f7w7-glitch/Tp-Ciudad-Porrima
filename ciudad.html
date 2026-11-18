@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Ciudad</title>
+  <!--GOOGLE FONTS-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS — antes del CSS propio -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+ rel="stylesheet">
+
+ <!--CSS PROPIO DEL SITIO-->
+    <link rel=stylesheet href=style.css>
+</head>
+<body>
+
+    <!--ENCABEZADO-->
+    <header id="inicio" class="text-center py-4">
+        <!--Titulo y eslogan-->
+        <h1>Conoce Ciudad Porrima</h1>
+        <p class="eslogan">Un lugar donde la naturaleza y la tranquilidad se encuentran</p>
+        <!--NAVBAR - MENU DE NAVEGACION-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+
+        <!--BOTON HAMBURGUESA-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavegacion"
+        aria-controls="menuNavegacion" aria-expanded="false" aria-label="Abrir manu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+         <!-- Enlaces del menú -->
+      <div class="collapse navbar-collapse justify-content-center" id="menuNavegacion">
+        <ul class="navbar-nav align-items-center gap-2 gap-lg-4">
+            <li class="nav-item">
+                <a class="nav-link"  href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="ciudad.html">Ciudad</a>
+            </li>
+            <li class="nav-item">
+             <a class="nav-link" href="lugares.html">lugares</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+         <button id="btn-modo" class="btn btn-secondary">
+      🌙 Modo oscuro
+</button>
+      </div>
+    </div>
+    </nav>
+    </header>  
+    <!--CONTENIDO PRINCIPAL--> 
+<main class="container p-4">
+<!--PRESENTACION DE LA CIUDAD-->
+    <section id="Presentacion" class="text-center my-5">
+        <h2 class="display-5 fw-bold text-dark">Asi es Ciudad Porrima</h2>
+     <img src="img/ciudad.jpg" alt="Ciudad Porrima" width="500" Class="imagen-ciudad img-fluid rounded">
+     <p class="lead text-muted">Ciudad Porrima es una ciudad montañosa conocida por sus paisajes nevados,bosques de abetos,lagos congelados y su ambiente acogedor.</p>
+</section>
+<!--HISTORIA DE LA CIUDAD-->
+ <section id="Historia" class="mb-5 card shadow-sm p-4">
+            <h2 class="mb-3 text-center">La historia de nuestra ciudad</h2>
+            <p>Ciudad Porrima fue fundada durante el siglo XIX por un grupo de familias que buscaban un lugar donde establecerse y comenzar una nueva vida. Al llegar a una region rodeada de imponentes montañas nevadas,bosques de abetos y lagos, encontraron un entorno natural que ofrecia diversos recursos para desarrollar su comunidad.</p>
+
+            <p>Aquellas primeras familias formaron un pequeño asentamiento entre las montañas,construyeron las primeras viviendas y aprovecharon los recursos naturales de la region. Con el paso de los años, el asentamiento fue creciendo gracias al comercio,la construccion de caminos y la llegada de nuevos habitantes, hasta convertirse en una ciudad próspera.</p>
+
+            <p class="mb-0">Con el tiempo, sus paisajes nevados,sus tradiciones y su arquitectura caracteristica comenzaron a atraer visitantes de distintas regiones. Actualmente, Ciudad Porrima es reconocida por sus atractivos naturales, sus festividades y su calida hospitalidad. A pesar de su crecimiento, conserva las costumbres y el encanto que forma parte de su identidad.</p>
+</section>
+<!--CARACTERISTICAS DE LA CIUDAD-->
+<section id="Caracteristicas" class="mb-5">
+    <h2 class="display-5 fw-bold text-dark">Características de nuestra ciudad</h2>
+ <div class="row g-4">
+     <div class="col-12 col-md-4">
+            <article class="card h-100 shadow-sm">
+             <div class="card-body">
+                    <h3 class="card-title">Geografia</h3>
+                    <p class="card-text">Ciudad Porrima se encuentra rodeada de montañas nevadas, extensos bosques de abetos y numerosos lagos. Su paisaje se caracteriza por sus amplios valles, senderos naturales y sus hermoasas vistas de los alrededores durante todo el año.</p>
+             </div>
+         </article>
+        </div>
+
+     <div class="col-12 col-md-4">
+         <article class="card h-100 shadow-sm">
+             <div class="card-body">
+                 <h3 class="card-title">Clima</h3>
+                 <p class="card-text">Su clima es frio durante la mayor parte del año, con inviernos largos y abundantes nevadas, con temperaturas que pueden descender por debajo de los cero grados. Sin embargo, durante el deshielo de Porrima las temperaturas aumentan ya que es la llegada del verano,en el cual las temperaturas son suaves y agradables, lo que permite disfrutar de actividades al aire libre.</p>
+                </div>
+         </article>
+     </div>
+
+     <div class="col-12 col-md-4">
+         <article class="card h-100 shadow-sm">
+             <div class="card-body"> 
+                    <h3 class="card-title">Arquitectura</h3>
+                    <p class="card-text">La arquitectura de Ciudad Porrima conserva un estilo tradicional, con edificios de piedra y madera, techos inclinados preparados para las nevadas y calles empedradas. Sus cafeterias, casas de te y pequeñas tiendas crean un ambiente calido y acogedor para residentes y visitantes.</p>
+             </div>
+         </article>
+     </div>
+</div>
+</section>
+
+<!--BARRIOS DE CIUDAD PORRIMA-->
+<section id="Barrios" class="mb-5">
+    <h2 class="display-5 fw-bold text-dark">Barrios de Ciudad Porrima</h2>
+    <p class="lead text-muted">Ciudad Porrima cuenta con diferentes barrios, cada uno con una identidad y caracteristicas propias que forman parte de la ciudad.</p>
+
+    <ul class="list-group">
+        <li class="list-group-item">
+            <strong>Los Fundadores:</strong> es uno de los barrios mas antiguos,conocido por sus construcciones tradicionales, pequeñas plazas y cafeterias. Pero lo mas caracteristico de este barrio es la Plaza de los Fundadores, un sitio historico de los origines de la ciudad.
+        </li>
+
+        <li class="list-group-item">
+            <strong>Los Pinos:</strong> es una zona residencial tranquila, rodeada de bosques de abetos y viviendas de madera. Es ideal para quienes buscan un ambiente relajado y contacto con la naturaleza.
+        </li>
+
+        <li class="list-group-item">
+            <strong>Distrito Cristal:</strong> se encuentra cerca del Lago Cristal y cuenta con hoteles, restaurantes y establecimientos turisticos.
+        </li>
+
+        <li class="list-group-item">
+            <strong>MonteAlphine</strong> es un barrio ubicado en las laderas de las montañas, con senderos para caminatas y vistas panoramicas. Es popular entre los amantes del esquí y el snowboard durante la temporada invernal.
+        </li>
+
+        <li class="list-group-item">
+            <strong>Los Astros:</strong> Alberga el observatorio Boreal y cuenta con espacios destinados a la observacion astronomica como pequeños planetarios,miradores astronomicos, centros de investigacion  y museo espacial Orion.
+        </li>
+
+        <li class="list-group-item">
+            <strong>Colina Nevada:</strong> es un barrio moderno que se destaca por su arquitectura contemporanea y su entorno natural. Es un lugar ideal para quienes buscan una combinacion de comodidad y contacto con la naturaleza.
+        </li>
+    </ul>
+</section>
+<!--CULTURA Y TRADICIONES-->
+<section id="cultura" class="mb-5">
+    <h2  class="display-5 fw-bold text-dark">Cultura y tradiciones</h2>
+
+    <p class="lead text-muted">La cultura de Ciudad Porrima esta profundamente ligada a su clima frio, sus paisajes nevados y la observacion del cielo nocturno. A lo largo de los años, sus habitantes han desarrollado costumbres y celebraciones que forman parte de su identidad.</p>
+
+    <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-4">
+                <article class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title">La importancia del invierno</h3>
+                        <p class="card-text"> El invierno ocupa un lugar especial en la vida de sus habitantes, quienes acostumbran reunirse en cafeterias, compartir bebidas calientes y preparar comidas tradicionales. </p>
+                    </div>
+                </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                 <article class="card h-100 shadow-sm">
+                        <div class="card-body"> 
+                         <h3 class="card-title h5">La astronomia y el cielo nocturno</h3>
+                         <p class="card-text">La observacion de las estrellas es una tradicion muy arraigada. Muchas familias participan en actividades astronimicas y visitas al Observacion Boreal.</p>
+                        </div>
+                    </article>
+            </div>
+
+        <div class="col-12 col-md-6 col-lg-4">
+            <article class="card h-100 shadow-sm">
+                <div class="card-body"> 
+                     <h3 class="card-title h5">Las celebraciones con faroles</h3>
+                     <p class="card-text">Durante algunas festividades, las calles se iluminan con faroles decorativos que representan la union y la calidez de la comunidad.</p>
+                </div>
+            </article>
+        </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+     <article class="card h-100 shadow-sm">
+            <div class="card-body">  
+                <h3 class="card-title h5">La bienvenida al deshielo</h3>
+                <p class="card-text">la llegada del verano se celebra con ferias, musica, comidas tipicas y actividades al aire libre.</p>
+         </div>
+     </article>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4">
+     <article class="card h-100 shadow-sm">
+         <div class="card-body"> 
+                <h3 class="card-title h5">La gastronomia tradicional</h3>
+                <p class="card-text">La comida local se caracteriza por sus sopas, guisos, panes caseros, dulces de frutos del bosque e infusiones calientes.</p>
+         </div>
+     </article>
+    </div>
+
+    <div class="col-12 col-mb-6 col-lg-4">
+     <article class="card h-100 shadow-sm">
+         <div class="card-body"> 
+                <h3 class="card-title h5">La fauna del gran norte Nevado</h3>
+                <p class="card-text">La fauna de Ciudad Porrima está adaptada milagrosamente a las bajas temperaturas y a los largos inviernos. Las especies que habitan la región no solo forman parte del ecosistema local, sino que son consideradas guardianes naturales de la paz de estos paisajes.Por ejemplo;El zorro plateado austral,el búho nival de las cumbres y la fauna menor.</p>
+         </div>
+     </article>
+    </div>
+ </div>
+</section>
+
+<!--DATOS CLAVE-->
+<section id="datos clave" class="mb-5 card p-4 shadow-sm">
+    <h2 class="display-5 fw-bold text-dark mb-3">Datos clave de Ciudad Porrima</h2>
+    <dl class="row mb-0">
+        <dt class="col-sm-4">poblacion:</dt>
+        <dd class="col-sm-8 ">48.500 habitantes</dd>
+
+        <dt class="col-sm-4">Año de fundacion:</dt>
+        <dd class="col-sm-8">1887</dd>
+
+        <dt class="col-sm-4">Clima:</dt>
+        <dd class="col-sm-8">Frio, con inviernos largos y veranos breves.</dd>
+
+        <dt class="col-sm-4">Gentilicio:</dt>
+        <dd class="col-sm-8">Porrimense</dd>
+    </dl>
+</section>
+
+<!--DATOS CURIOSOS-->
+<aside id="datos curiosos" class="card mb-5">
+  <div class="card-body">
+        <h2 class="card-title mb-3">¿Sabias que....?</h2>
+
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+                Algunas viviendas antiguas conservan pequeñas campanillas en sus puertas.
+            </li>
+
+            <li class="list-group-item">
+                 Ciertos edificios antiguos tienen relojes astronomicos que muestran la posicion de algunos cuerpos celestes.
+            </li>
+
+            <li class="list-group-item">
+                  Algunas calles antiguas llevan nombres relacionados con constelaciones y estrellas.
+            </li>
+
+            <li class="list-group-item">
+                 algunos faroles antiguos tienen diseños de copos de nieve.
+            </li>
+     </ul>
+  </div>
+</aside>
+ </main>
+
+ <!--FOOTER - PIE DE PAGINA-->
+  <footer class="footer bg-dark text-light text-center py-4">
+        <p>quieres comunicarte con nosotros?<a href="contacto.html" class="enlace-contacto btn btn-primary">contactanos por aqui</a></p>
+        <p class="mb-2">&copy; 2026 Ciudad Porrima. Todos los derechos reservados.</p>
+        <a href="#inicio" class="enlace-inicio">Volver al principio</a>
+    </footer>
+
+    <!-- Bootstrap JS — antes del </body> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!--JAVASCRIPT PROPIO-->
+<script src="main.js"></script>
+</body>
+</html>
